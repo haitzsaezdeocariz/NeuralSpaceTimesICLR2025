@@ -1,0 +1,19 @@
+name: nst
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - numpy
+  - scikit-learn
+  - networkx
+  - matplotlib
+  - tqdm
+  - pydot
+  - graphviz  # required for DAG layout visualization with pydot
+  - pip
+  - pip:
+      - torch-geometric
+      - ogb
